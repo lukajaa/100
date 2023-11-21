@@ -1,5 +1,5 @@
 <template>
-  <div class="py-24 font-mono 2xl:py-48">
+  <div class="py-24 2xl:py-48">
     <div class="mx-auto flex flex-col md:w-1/2 2xl:w-1/3">
       <p class="mb-2 text-4xl font-bold tracking-tight">Showcase</p>
       <div class="flex flex-wrap">
@@ -9,7 +9,9 @@
             :key="i"
             :to="
               links[i - 1 + (n - 1) * 20]
-                ? `/${links[i - 1 + (n - 1) * 20]}`
+                ? `/${links[i - 1 + (n - 1) * 20]
+                    .replace(/\s+/g, '')
+                    .toLowerCase()}`
                 : ''
             "
             :class="{ 'cursor-pointer': links[i - 1 + (n - 1) * 20] }"
@@ -25,5 +27,9 @@
 </template>
 
 <script setup lang="ts">
-const links = ['Surnames'];
+const links = ['Surnames', 'HSR Pairs'];
+
+useHead({
+  title: '100',
+});
 </script>

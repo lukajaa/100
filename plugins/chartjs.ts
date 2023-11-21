@@ -4,6 +4,7 @@ import {
   Tooltip,
   Legend,
   ArcElement,
+  BarElement,
   CategoryScale,
   LinearScale,
 } from 'chart.js';
@@ -13,6 +14,7 @@ export default defineNuxtPlugin(() => {
     CategoryScale,
     LinearScale,
     ArcElement,
+    BarElement,
     Title,
     Tooltip,
     Legend,

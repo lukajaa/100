@@ -3,7 +3,7 @@
     <div class="py-24 2xl:py-48">
       <div class="mx-auto flex flex-col md:w-1/2">
         <p class="mb-2 text-4xl font-bold tracking-tight">Surnames</p>
-        <div class="flex flex-row text-center font-mono">
+        <div class="flex flex-row text-center">
           <div class="flex w-1/2 flex-col">
             <p class="text-xl">🇰🇷</p>
             <div class="h-96">
@@ -39,9 +39,7 @@
         </div>
       </div>
     </div>
-    <NuxtLink to="/" class="fixed bottom-0 left-0 m-4">
-      <UButton label="Back Home" size="lg" variant="outline" color="black" />
-    </NuxtLink>
+    <BackButton />
   </div>
 </template>
 
