@@ -27,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-const links = ['Surnames', 'HSR Pairs', 'Mindfulness'];
+const links = ['Surnames', 'HSR Pairs', 'Mindfulness', 'Bay Clock'];
 
 useHead({
   title: '100',
