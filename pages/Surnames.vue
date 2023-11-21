@@ -73,7 +73,7 @@ const options = {
 
 const koreanSurnames = [
   { surname: '김 (Kim)', percentage: 21.5065 },
-  { surname: '이 (I)', percentage: 14.701 },
+  { surname: '이 (Lee)', percentage: 14.701 },
   { surname: '박 (Park)', percentage: 8.4338 },
   { surname: '정 (Jung)', percentage: 4.8437 },
   { surname: '최 (Choi)', percentage: 4.7089 },

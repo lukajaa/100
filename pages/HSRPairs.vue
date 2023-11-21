@@ -1,10 +1,24 @@
 <template>
   <div>
     <div class="py-24 2xl:py-48">
-      <div class="mx-auto flex flex-col md:w-1/2">
-        <p class="mb-2 text-4xl font-bold tracking-tight">
-          High Speed Rail Pairs
-        </p>
+      <div
+        class="mx-auto flex flex-col md:w-1/2"
+        :class="{ 'md:w-full': fullscreen }"
+      >
+        <div class="flex flex-row items-center justify-between">
+          <p class="mb-2 text-4xl font-bold tracking-tight">
+            High Speed Rail Pairs
+          </p>
+          <UIcon
+            :name="
+              fullscreen
+                ? 'i-heroicons-arrows-pointing-in'
+                : 'i-heroicons-arrows-pointing-out'
+            "
+            class="invisible h-8 w-8 text-gray-400 hover:text-gray-500 dark:text-gray-500 dark:hover:text-gray-400 md:visible"
+            @click="fullscreen = !fullscreen"
+          />
+        </div>
         <p class="text-center text-xl">Top {{ numPairs }} HSR Pairs</p>
         <div class="h-96">
           <Bar :data="chartData" :options="options" />
@@ -31,12 +45,12 @@
         </div>
         <p class="mt-8 indent-8">
           <span class="font-bold">Note:</span> The score is a gravity score
-          between the two combined statistical areas (CSAs). The gravity score
-          is calculated by the following formula: population<sub>1</sub
-          ><sup>0.8</sup> * population<sub>2</sub><sup>0.8</sup> /
-          distance<sup>2</sup>. Lastly, a distance modifier that favors CSAs
-          that are an ideal distance away from each other for high speed rail is
-          applied.
+          between the central city of the two combined statistical areas (CSAs).
+          The gravity score is calculated by the following formula:
+          population<sub>1</sub><sup>0.8</sup> * population<sub>2</sub
+          ><sup>0.8</sup> / distance<sup>2</sup>. Lastly, a distance modifier
+          that favors CSAs that are an ideal distance away from each other for
+          high speed rail is applied.
         </p>
         <div class="mt-8 text-center">
           <p>
@@ -56,6 +70,7 @@
 import { Bar } from 'vue-chartjs';
 import data from '~/assets/data/hsr_pairs.json';
 
+const fullscreen = ref(false);
 const numPairs = ref(10);
 const dataLabels = computed(() => {
   return data.slice(0, numPairs.value).map((d) => `${d.CSA1} - ${d.CSA2}`);

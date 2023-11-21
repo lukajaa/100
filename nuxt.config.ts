@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: '100',
+      title: '100 Visualizations',
     },
     pageTransition: { name: 'page', mode: 'out-in' },
   },
