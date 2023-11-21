@@ -4,7 +4,7 @@
       <div class="mx-auto flex flex-col md:w-1/2">
         <p class="mb-2 text-4xl font-bold tracking-tight">Surnames</p>
         <div class="flex flex-row text-center">
-          <div class="flex w-1/2 flex-col">
+          <div class="flex w-1/2 flex-col pr-4">
             <p class="text-xl">🇰🇷</p>
             <div class="h-96">
               <Pie :data="koreaChartData" :options="options" />
@@ -14,7 +14,7 @@
               {{ surname.surname }}: {{ surname.percentage }}%
             </p>
           </div>
-          <div class="flex w-1/2 flex-col">
+          <div class="flex w-1/2 flex-col pl-4">
             <p class="text-xl">🇺🇸</p>
             <div class="h-96">
               <Pie :data="americaChartData" :options="options" />
@@ -25,7 +25,7 @@
             </p>
           </div>
         </div>
-        <div class="p-8 text-center font-mono">
+        <div class="mt-8 text-center font-mono">
           <p>
             Data from
             <a href="https://www.census.gov/" target="_blank" class="link">

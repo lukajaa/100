@@ -14,7 +14,7 @@
           beginning of the mindfulness explanation to the first ring of the
           bell.
         </p>
-        <div class="p-8 text-center">
+        <div class="mt-8 text-center">
           <p>Data from myself</p>
         </div>
       </div>

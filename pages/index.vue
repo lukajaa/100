@@ -3,7 +3,11 @@
     <div class="mx-auto flex flex-col md:w-1/2 2xl:w-1/3">
       <p class="mb-2 text-4xl font-bold tracking-tight">100 Visualizations</p>
       <div class="flex flex-wrap">
-        <div v-for="n in 5" :key="n" class="flex w-1/3 flex-col p-2 md:w-1/5">
+        <div
+          v-for="n in 5"
+          :key="n"
+          class="flex w-1/2 flex-col p-2 md:w-1/3 2xl:w-1/5"
+        >
           <NuxtLink
             v-for="i in 20"
             :key="i"

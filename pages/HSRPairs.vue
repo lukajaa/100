@@ -38,7 +38,7 @@
           that are an ideal distance away from each other for high speed rail is
           applied.
         </p>
-        <div class="p-8 text-center">
+        <div class="mt-8 text-center">
           <p>
             Data from
             <a href="https://www.census.gov/" target="_blank" class="link">

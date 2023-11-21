@@ -12,7 +12,7 @@
           different user behaviors on weekends, breaks, and during immersives
           can be seen.
         </p>
-        <div class="p-8 text-center">
+        <div class="mt-8 text-center">
           <p>Data from myself</p>
         </div>
       </div>
