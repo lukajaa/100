@@ -1,91 +1,29 @@
 <template>
-  <div class="mx-auto px-10 pt-10 lg:w-1/2">
-    <p class="mb-2 text-center text-5xl font-bold tracking-tight">
-      Lukaja's Nuxt Template
-    </p>
-    <p class="mb-4 text-center">
-      Nuxt Template used for my personal projects. Includes NuxtUI, ESLint,
-      Prettier, and Google Analytics.
-    </p>
-    <p class="mb-2 mt-4 text-xl font-semibold">Installation</p>
-    <p>
-      1. Clone
-      <a
-        href="https://github.com/lukajaa/lukajaa-nuxt-template/"
-        target="_blank"
-        class="font-semibold text-blue-400 hover:text-blue-500"
-      >
-        this repo
-      </a>
-    </p>
-    <p>2.</p>
-    <UAlert title="Terminal" icon="i-heroicons-command-line" class="text-left">
-      <template #description>yarn <br />yarn dev </template>
-    </UAlert>
-    <p class="mb-2 mt-4 text-xl font-semibold">Updating</p>
-    <UAlert
-      icon="i-heroicons-command-line"
-      title="Terminal"
-      class="mb-4 text-left"
-    >
-      <template #description>
-        yarn outdated<br />yarn add -D packages
-      </template>
-    </UAlert>
-
-    <p class="mb-2 mt-4 text-xl font-semibold">Dependencies</p>
-    <p v-for="(version, dependency) of devDependencies" :key="dependency">
-      {{ dependency }}: {{ version.replace('^', '') }}
-    </p>
-    <ClientOnly>
-      <UButton
-        :icon="
-          isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'
-        "
-        color="gray"
-        class="fixed right-0 top-0 m-4"
-        size="xl"
-        @click="isDark = !isDark"
-      />
-      <template #fallback>
-        <div class="h-8 w-8" />
-      </template>
-    </ClientOnly>
+  <div class="py-24 font-mono 2xl:py-48">
+    <div class="mx-auto flex flex-col md:w-1/2 2xl:w-1/3">
+      <p class="mb-2 text-4xl font-bold tracking-tight">Showcase</p>
+      <div class="flex flex-wrap">
+        <div v-for="n in 5" :key="n" class="flex w-1/3 flex-col p-2 md:w-1/5">
+          <NuxtLink
+            v-for="i in 20"
+            :key="i"
+            :to="
+              links[i - 1 + (n - 1) * 20]
+                ? `/${links[i - 1 + (n - 1) * 20]}`
+                : ''
+            "
+            :class="{ 'cursor-pointer': links[i - 1 + (n - 1) * 20] }"
+          >
+            <p class="text-gray-400 hover:text-gray-500">
+              {{ i + (n - 1) * 20 }} {{ links[i - 1 + (n - 1) * 20] }}
+            </p>
+          </NuxtLink>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
-const colorMode = useColorMode();
-const isDark = computed({
-  get() {
-    return colorMode.value === 'dark';
-  },
-  set() {
-    colorMode.preference = colorMode.value === 'dark' ? 'light' : 'dark';
-  },
-});
-
-const devDependencies = {
-  '@nuxt/devtools': '^1.0.3',
-  '@nuxt/eslint-config': '^0.2.0',
-  '@nuxt/ui': '^2.10.0',
-  '@nuxtjs/eslint-config-typescript': '^12.1.0',
-  '@nuxtjs/eslint-module': '^4.1.0',
-  '@tailwindcss/typography': '^0.5.10',
-  '@types/node': '^20.9.2',
-  '@typescript-eslint/parser': '^6.12.0',
-  '@vueuse/core': '^10.6.1',
-  '@vueuse/nuxt': '^10.6.1',
-  eslint: '^8.54.0',
-  'eslint-config-prettier': '^9.0.0',
-  'eslint-loader': '^4.0.2',
-  'eslint-plugin-prettier': '^5.0.1',
-  'eslint-plugin-vue': '^9.18.1',
-  nuxt: '^3.8.1',
-  'nuxt-gtag': '^1.1.1',
-  prettier: '^3.1.0',
-  'prettier-plugin-tailwindcss': '^0.5.7',
-  sass: '^1.69.5',
-  typescript: '^5.3.2',
-};
+const links = ['Surnames'];
 </script>

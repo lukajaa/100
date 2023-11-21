@@ -3,8 +3,9 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: 'Lukajaa Nuxt Template',
+      title: '100',
     },
+    pageTransition: { name: 'page', mode: 'out-in' },
   },
   css: ['@/assets/styles/main.scss'],
   typescript: {

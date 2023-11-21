@@ -1,21 +1,18 @@
 <template>
   <div class="mx-auto p-8 text-center">
-    <p>Last Updated - 11/20/23</p>
     <p>
       Created by
-      <a
-        href="https://www.lucaskchang.com/"
-        target="_blank"
-        class="font-semibold text-blue-400 hover:text-blue-500"
-      >
+      <a href="https://www.lucaskchang.com/" target="_blank" class="link">
         Lucas Chang.
       </a>
+      Inspired by
+      <a href="https://100.antfu.me" target="_blank" class="link">
+        100.antfu.me
+      </a>
+    </p>
+    <p>
       Made with
-      <a
-        href="https://github.com/lukajaa/lukajaa-nuxt-template/"
-        target="_blank"
-        class="font-semibold text-blue-400 hover:text-blue-500"
-      >
+      <a href="https://github.com/lukajaa/100/" target="_blank" class="link">
         Nuxt and TailwindCSS.
       </a>
     </p>
