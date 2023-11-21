@@ -46,7 +46,7 @@
 <script setup lang="ts">
 import { Pie } from 'vue-chartjs';
 
-const koreaChartData = ref({
+const koreaChartData = {
   labels: ['김 (Kim)', 'Other'],
   datasets: [
     {
@@ -54,9 +54,9 @@ const koreaChartData = ref({
       data: [21.5, 78.5],
     },
   ],
-});
+};
 
-const americaChartData = ref({
+const americaChartData = {
   labels: ['100 top surnames', 'Other'],
   datasets: [
     {
@@ -64,12 +64,12 @@ const americaChartData = ref({
       data: [17.11, 82.89],
     },
   ],
-});
+};
 
-const options = ref({
+const options = {
   responsive: true,
   maintainAspectRatio: false,
-});
+};
 
 const koreanSurnames = [
   { surname: '김 (Kim)', percentage: 21.5065 },

@@ -1,7 +1,7 @@
 <template>
   <div class="py-24 2xl:py-48">
     <div class="mx-auto flex flex-col md:w-1/2 2xl:w-1/3">
-      <p class="mb-2 text-4xl font-bold tracking-tight">Showcase</p>
+      <p class="mb-2 text-4xl font-bold tracking-tight">100 Visualizations</p>
       <div class="flex flex-wrap">
         <div v-for="n in 5" :key="n" class="flex w-1/3 flex-col p-2 md:w-1/5">
           <NuxtLink
@@ -27,7 +27,7 @@
 </template>
 
 <script setup lang="ts">
-const links = ['Surnames', 'HSR Pairs'];
+const links = ['Surnames', 'HSR Pairs', 'Mindfulness'];
 
 useHead({
   title: '100',

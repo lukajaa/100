@@ -77,10 +77,10 @@ const chartData = computed(() => {
   };
 });
 
-const options = ref({
+const options = {
   responsive: true,
   maintainAspectRatio: false,
-});
+};
 
 useHead({
   title: '2 - HSR Pairs',
