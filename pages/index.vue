@@ -26,6 +26,27 @@
           </NuxtLink>
         </div>
       </div>
+      <div class="mt-4 text-center">
+        <p class="text-center font-bold">Other Projects</p>
+        <p>
+          <a
+            class="text-gray-400 hover:text-gray-500"
+            href="https://ed.lucaskchang.com"
+            target="_blank"
+          >
+            Ed-nalysis
+          </a>
+        </p>
+        <p>
+          <a
+            class="text-gray-400 hover:text-gray-500"
+            href="https://lunch.lucaskchang.com"
+            target="_blank"
+          >
+            School Lunch
+          </a>
+        </p>
+      </div>
     </div>
   </div>
 </template>
@@ -34,6 +55,6 @@
 const links = ['Surnames', 'HSR Pairs', 'Mindfulness', 'Bay Clock'];
 
 useHead({
-  title: '100',
+  title: '100 Visualizations',
 });
 </script>
