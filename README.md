@@ -1,5 +1,5 @@
-# Lukajaa Nuxt Template
+# 100 Visualizations
 
-Nuxt Template used for my personal projects. Includes NuxtUI, ESLint, Prettier, and Google Analytics.
+A collection of (eventually) 100 visualizations of datasets that I find interesting.
 
-Preview: [https://template.lucaskchang.com](https://template.lucaskchang.com)
+Visit here: [https://100.lucaskchang.com/](https://100.lucaskchang.com/)
