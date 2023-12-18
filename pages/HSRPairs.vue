@@ -1,76 +1,50 @@
 <template>
-  <div>
-    <div class="py-24 2xl:py-48">
-      <div
-        class="mx-auto flex flex-col md:w-1/2"
-        :class="{ 'md:w-full': fullscreen }"
-      >
-        <div class="flex flex-row items-center justify-between">
-          <p class="mb-2 text-4xl font-bold tracking-tight">
-            High Speed Rail Pairs
-          </p>
-          <UIcon
-            :name="
-              fullscreen
-                ? 'i-heroicons-arrows-pointing-in'
-                : 'i-heroicons-arrows-pointing-out'
-            "
-            class="invisible h-8 w-8 text-gray-400 hover:text-gray-500 dark:text-gray-500 dark:hover:text-gray-400 md:visible"
-            @click="fullscreen = !fullscreen"
-          />
-        </div>
-        <p class="text-center text-xl">Top {{ numPairs }} HSR Pairs</p>
-        <div class="h-96">
-          <Bar :data="chartData" :options="options" />
-        </div>
-        <div class="mt-8 flex justify-center gap-4">
-          <UButton
-            label="Show More"
-            color="green"
-            variant="outline"
-            @click="numPairs < 50 ? (numPairs += 1) : (numPairs = 50)"
-          />
-          <UButton
-            label="Reset"
-            color="gray"
-            variant="outline"
-            @click="numPairs = 10"
-          />
-          <UButton
-            label="Show Less"
-            color="red"
-            variant="outline"
-            @click="numPairs > 0 ? (numPairs -= 1) : (numPairs = 0)"
-          />
-        </div>
-        <p class="mt-8 indent-8">
-          <span class="font-bold">Note:</span> The score is a gravity score
-          between the central city of the two combined statistical areas (CSAs).
-          The gravity score is calculated by the following formula:
-          population<sub>1</sub><sup>0.8</sup> * population<sub>2</sub
-          ><sup>0.8</sup> / distance<sup>2</sup>. Lastly, a distance modifier
-          that favors CSAs that are an ideal distance away from each other for
-          high speed rail is applied.
-        </p>
-        <div class="mt-8 text-center">
-          <p>
-            Data from
-            <a href="https://www.census.gov/" target="_blank" class="link">
-              US Census
-            </a>
-          </p>
-        </div>
-      </div>
+  <PageContainer>
+    <PageTitle>High Speed Rail Pairs</PageTitle>
+    <p class="text-center text-xl">Top {{ numPairs }} HSR Pairs</p>
+    <div class="h-96">
+      <Bar :data="chartData" :options="options" />
     </div>
-    <BackButton />
-  </div>
+    <div class="mt-8 flex justify-center gap-4">
+      <UButton
+        label="Show More"
+        color="green"
+        variant="outline"
+        @click="numPairs += 1"
+      />
+      <UButton
+        label="Reset"
+        color="gray"
+        variant="outline"
+        @click="numPairs = 10"
+      />
+      <UButton
+        label="Show Less"
+        color="red"
+        variant="outline"
+        @click="numPairs > 1 ? (numPairs -= 1) : (numPairs = 1)"
+      />
+    </div>
+    <PageNote>
+      The score is a gravity score between the central city of the two combined
+      statistical areas (CSAs). The gravity score is calculated by the following
+      formula: population<sub>1</sub><sup>0.8</sup> * population<sub>2</sub
+      ><sup>0.8</sup> / distance<sup>2</sup>. Lastly, a distance modifier that
+      favors CSAs that are an ideal distance away from each other for high speed
+      rail is applied.
+    </PageNote>
+    <PageSource>
+      <a href="https://www.census.gov/" target="_blank" class="link">
+        US Census
+      </a>
+    </PageSource>
+  </PageContainer>
 </template>
 
 <script setup lang="ts">
 import { Bar } from 'vue-chartjs';
 import data from '~/assets/data/hsr_pairs.json';
 
-const fullscreen = ref(false);
 const numPairs = ref(10);
 const dataLabels = computed(() => {
   return data.slice(0, numPairs.value).map((d) => `${d.CSA1} - ${d.CSA2}`);

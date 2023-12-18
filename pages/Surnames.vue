@@ -1,46 +1,38 @@
 <template>
-  <div>
-    <div class="py-24 2xl:py-48">
-      <div class="mx-auto flex flex-col md:w-1/2">
-        <p class="mb-2 text-4xl font-bold tracking-tight">Surnames</p>
-        <div class="flex flex-row text-center">
-          <div class="flex w-1/2 flex-col pr-4">
-            <p class="text-xl">🇰🇷</p>
-            <div class="h-96">
-              <Pie :data="koreaChartData" :options="options" />
-            </div>
-            <p class="mt-4 font-bold">Most Common Korean Surnames</p>
-            <p v-for="surname in koreanSurnames" :key="surname.surname">
-              {{ surname.surname }}: {{ surname.percentage }}%
-            </p>
-          </div>
-          <div class="flex w-1/2 flex-col pl-4">
-            <p class="text-xl">🇺🇸</p>
-            <div class="h-96">
-              <Pie :data="americaChartData" :options="options" />
-            </div>
-            <p class="mt-4 font-bold">Most Common American Surnames</p>
-            <p v-for="surname in americanSurnames" :key="surname.surname">
-              {{ surname.surname }}: {{ surname.percentage }}%
-            </p>
-          </div>
+  <PageContainer :has-fullscreen="false">
+    <PageTitle :has-fullscreen="false">Surnames</PageTitle>
+    <div class="flex flex-row text-center">
+      <div class="flex w-1/2 flex-col pr-4">
+        <p class="text-xl">🇰🇷</p>
+        <div class="h-96">
+          <Pie :data="koreaChartData" :options="options" />
         </div>
-        <div class="mt-8 text-center font-mono">
-          <p>
-            Data from
-            <a href="https://www.census.gov/" target="_blank" class="link">
-              US Census
-            </a>
-            and
-            <a href="http://kostat.go.kr/anse/" target="_blank" class="link">
-              Statistics Korea
-            </a>
-          </p>
+        <p class="mt-4 font-bold">Most Common Korean Surnames</p>
+        <p v-for="surname in koreanSurnames" :key="surname.surname">
+          {{ surname.surname }}: {{ surname.percentage }}%
+        </p>
+      </div>
+      <div class="flex w-1/2 flex-col pl-4">
+        <p class="text-xl">🇺🇸</p>
+        <div class="h-96">
+          <Pie :data="americaChartData" :options="options" />
         </div>
+        <p class="mt-4 font-bold">Most Common American Surnames</p>
+        <p v-for="surname in americanSurnames" :key="surname.surname">
+          {{ surname.surname }}: {{ surname.percentage }}%
+        </p>
       </div>
     </div>
-    <BackButton />
-  </div>
+    <PageSource>
+      <a href="https://www.census.gov/" target="_blank" class="link">
+        US Census
+      </a>
+      and
+      <a href="http://kostat.go.kr/anse/" target="_blank" class="link">
+        Statistics Korea
+      </a>
+    </PageSource>
+  </PageContainer>
 </template>
 
 <script setup lang="ts">

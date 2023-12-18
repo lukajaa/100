@@ -1,47 +1,22 @@
 <template>
-  <div>
-    <div class="py-24 2xl:py-48">
-      <div
-        class="mx-auto flex flex-col md:w-1/2"
-        :class="{ 'md:w-full': fullscreen }"
-      >
-        <div class="flex flex-row items-center justify-between">
-          <p class="mb-2 text-4xl font-bold tracking-tight">
-            Bay School Mindfulness
-          </p>
-          <UIcon
-            :name="
-              fullscreen
-                ? 'i-heroicons-arrows-pointing-in'
-                : 'i-heroicons-arrows-pointing-out'
-            "
-            class="invisible h-8 w-8 transition ease-in-out hover:scale-105 md:visible"
-            @click="fullscreen = !fullscreen"
-          />
-        </div>
-        <p class="text-center text-xl">Mindfulness Lengths</p>
-        <div class="h-96">
-          <Bar :data="chartData" :options="options" />
-        </div>
-        <p class="mt-8 indent-8">
-          <span class="font-bold">Note:</span> Prelude is measured from the
-          beginning of the mindfulness explanation to the first ring of the
-          bell.
-        </p>
-        <div class="mt-8 text-center">
-          <p>Data from myself</p>
-        </div>
-      </div>
+  <PageContainer>
+    <PageTitle>Bay School Mindfulness</PageTitle>
+    <p class="text-center text-xl">Mindfulness Lengths</p>
+    <div class="h-96">
+      <Bar :data="chartData" :options="options" />
     </div>
-    <BackButton />
-  </div>
+    <PageNote>
+      Prelude is measured from the beginning of the mindfulness explanation to
+      the first ring of the bell.
+    </PageNote>
+    <PageSource> myself </PageSource>
+  </PageContainer>
 </template>
 
 <script setup lang="ts">
 import { Bar } from 'vue-chartjs';
 import data from '~/assets/data/mindfulness.json';
 
-const fullscreen = ref(false);
 const dataLabels = data.map((d) => d.date);
 const preludeData = data.map((d) => d.prelude);
 const meditationData = data.map((d) => d.meditation);
