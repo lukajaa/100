@@ -52,7 +52,7 @@
 </template>
 
 <script setup lang="ts">
-const links = ['Surnames', 'HSR Pairs', 'Mindfulness', 'Bay Clock'];
+const links = ['Surnames', 'HSR Pairs', 'Mindfulness', 'Bay Clock', 'Wattage'];
 
 useHead({
   title: '100 Visualizations',
