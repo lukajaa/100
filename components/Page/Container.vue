@@ -1,10 +1,10 @@
 <template>
   <div
     class="mx-auto flex flex-col py-24 md:w-1/2 2xl:py-48"
-    :class="{ 'md:w-full': isFullscreen && hasFullscreen }"
+    :class="{ 'md:w-full': isFullscreen && !noFullscreen }"
   >
     <slot />
-    <BackButton />
+    <BackButton v-if="$route.query.embed !== 'true'" />
   </div>
 </template>
 
@@ -15,9 +15,9 @@ const fullscreen = useFullscreen();
 const { isFullscreen } = storeToRefs(fullscreen);
 
 defineProps({
-  hasFullscreen: {
+  noFullscreen: {
     type: Boolean,
-    default: true,
+    default: false,
   },
 });
 </script>

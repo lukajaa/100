@@ -1,6 +1,6 @@
 <template>
-  <PageContainer :has-fullscreen="false">
-    <PageTitle :has-fullscreen="false">Surnames</PageTitle>
+  <PageContainer no-fullscreen>
+    <PageTitle no-fullscreen>Surnames</PageTitle>
     <div class="flex flex-row text-center">
       <div class="flex w-1/2 flex-col pr-4">
         <p class="text-xl">🇰🇷</p>

@@ -4,7 +4,7 @@
       <slot />
     </p>
     <UIcon
-      v-if="hasFullscreen"
+      v-if="!noFullscreen"
       :name="
         isFullscreen
           ? 'i-heroicons-arrows-pointing-in'
@@ -24,9 +24,9 @@ const { isFullscreen } = storeToRefs(fullscreen);
 const { toggleFullscreen } = useFullscreen();
 
 defineProps({
-  hasFullscreen: {
+  noFullscreen: {
     type: Boolean,
-    default: true,
+    default: false,
   },
 });
 </script>
