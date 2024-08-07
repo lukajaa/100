@@ -34,7 +34,7 @@
       rail is applied.
     </PageNote>
     <PageSource>
-      <a href="https://www.census.gov/" target="_blank" class="link">
+      <a href="https://www.census.gov/" target="_blank" rel="noopener noreferrer" class="link">
         US Census
       </a>
     </PageSource>

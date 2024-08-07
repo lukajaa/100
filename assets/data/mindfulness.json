@@ -1,422 +1,698 @@
 [
   {
     "date": "11/11/22",
-    "prelude": "93",
-    "meditation": "57",
-    "total": "150"
+    "prelude": 93,
+    "meditation": 57,
+    "total": 150
   },
   {
     "date": "11/14/22",
-    "prelude": "85",
-    "meditation": "74",
-    "total": "159"
+    "prelude": 85,
+    "meditation": 74,
+    "total": 159
   },
   {
     "date": "11/16/22",
-    "prelude": "163",
-    "meditation": "67",
-    "total": "230"
+    "prelude": 163,
+    "meditation": 67,
+    "total": 230
   },
   {
     "date": "11/28/22",
-    "prelude": "62",
-    "meditation": "92",
-    "total": "154"
+    "prelude": 62,
+    "meditation": 92,
+    "total": 154
   },
   {
     "date": "11/30",
-    "prelude": "30",
-    "meditation": "256",
-    "total": "286"
+    "prelude": 30,
+    "meditation": 256,
+    "total": 286
   },
   {
     "date": "12/2/22",
-    "prelude": "75",
-    "meditation": "61",
-    "total": "136"
+    "prelude": 75,
+    "meditation": 61,
+    "total": 136
   },
   {
     "date": "12/5/22",
-    "prelude": "71",
-    "meditation": "74",
-    "total": "145"
+    "prelude": 71,
+    "meditation": 74,
+    "total": 145
   },
   {
     "date": "12/7/22",
-    "prelude": "42",
-    "meditation": "54",
-    "total": "96"
+    "prelude": 42,
+    "meditation": 54,
+    "total": 96
   },
   {
     "date": "12/9/22",
-    "prelude": "88",
-    "meditation": "78",
-    "total": "166"
+    "prelude": 88,
+    "meditation": 78,
+    "total": 166
   },
   {
     "date": "12/14/22",
-    "prelude": "69",
-    "meditation": "95",
-    "total": "164"
+    "prelude": 69,
+    "meditation": 95,
+    "total": 164
   },
   {
     "date": "12/16/22",
-    "prelude": "121",
-    "meditation": "228",
-    "total": "349"
+    "prelude": 121,
+    "meditation": 228,
+    "total": 349
   },
   {
     "date": "1/6/23",
-    "prelude": "71",
-    "meditation": "70",
-    "total": "141"
+    "prelude": 71,
+    "meditation": 70,
+    "total": 141
   },
   {
     "date": "1/17/23",
-    "prelude": "52",
-    "meditation": "106",
-    "total": "158"
+    "prelude": 52,
+    "meditation": 106,
+    "total": 158
   },
   {
     "date": "2/2/23",
-    "prelude": "46",
-    "meditation": "68",
-    "total": "114"
+    "prelude": 46,
+    "meditation": 68,
+    "total": 114
   },
   {
     "date": "2/6/23",
-    "prelude": "156",
-    "meditation": "60",
-    "total": "216"
+    "prelude": 156,
+    "meditation": 60,
+    "total": 216
   },
   {
     "date": "2/8/2023",
-    "prelude": "84",
-    "meditation": "71",
-    "total": "155"
+    "prelude": 84,
+    "meditation": 71,
+    "total": 155
   },
   {
     "date": "2/10/23",
-    "prelude": "40",
-    "meditation": "114",
-    "total": "154"
+    "prelude": 40,
+    "meditation": 114,
+    "total": 154
   },
   {
     "date": "2/13/23",
-    "prelude": "48",
-    "meditation": "91",
-    "total": "139"
+    "prelude": 48,
+    "meditation": 91,
+    "total": 139
   },
   {
     "date": "2/14/23",
-    "prelude": "28",
-    "meditation": "26",
-    "total": "54"
+    "prelude": 28,
+    "meditation": 26,
+    "total": 54
   },
   {
     "date": "2/17/23",
-    "prelude": "54",
-    "meditation": "87",
-    "total": "141"
+    "prelude": 54,
+    "meditation": 87,
+    "total": 141
   },
   {
     "date": "2/22/23",
-    "prelude": "44",
-    "meditation": "71",
-    "total": "115"
+    "prelude": 44,
+    "meditation": 71,
+    "total": 115
   },
   {
     "date": "2/27/23",
-    "prelude": "103",
-    "meditation": "86",
-    "total": "189"
+    "prelude": 103,
+    "meditation": 86,
+    "total": 189
   },
   {
     "date": "3/1/23",
-    "prelude": "121",
-    "meditation": "63",
-    "total": "184"
+    "prelude": 121,
+    "meditation": 63,
+    "total": 184
   },
   {
     "date": "3/6/23",
-    "prelude": "68",
-    "meditation": "58",
-    "total": "126"
+    "prelude": 68,
+    "meditation": 58,
+    "total": 126
   },
   {
     "date": "3/8/23",
-    "prelude": "158",
-    "meditation": "53",
-    "total": "211"
+    "prelude": 158,
+    "meditation": 53,
+    "total": 211
   },
   {
     "date": "3/13/23",
-    "prelude": "156",
-    "meditation": "60",
-    "total": "216"
+    "prelude": 156,
+    "meditation": 60,
+    "total": 216
   },
   {
     "date": "3/15/23",
-    "prelude": "70",
-    "meditation": "46",
-    "total": "116"
+    "prelude": 70,
+    "meditation": 46,
+    "total": 116
   },
   {
     "date": "3/20/23",
-    "prelude": "120",
-    "meditation": "62",
-    "total": "182"
+    "prelude": 120,
+    "meditation": 62,
+    "total": 182
   },
   {
     "date": "3/21/23",
-    "prelude": "34",
-    "meditation": "47",
-    "total": "81"
+    "prelude": 34,
+    "meditation": 47,
+    "total": 81
   },
   {
     "date": "3/23/23",
-    "prelude": "174",
-    "meditation": "76",
-    "total": "250"
+    "prelude": 174,
+    "meditation": 76,
+    "total": 250
   },
   {
     "date": "3/24/2023",
-    "prelude": "66",
-    "meditation": "69",
-    "total": "135"
+    "prelude": 66,
+    "meditation": 69,
+    "total": 135
   },
   {
     "date": "3/27/23",
-    "prelude": "187",
-    "meditation": "72",
-    "total": "259"
+    "prelude": 187,
+    "meditation": 72,
+    "total": 259
   },
   {
     "date": "4/17/23",
-    "prelude": "150",
-    "meditation": "82",
-    "total": "232"
+    "prelude": 150,
+    "meditation": 82,
+    "total": 232
   },
   {
     "date": "4/19/23",
-    "prelude": "81",
-    "meditation": "61",
-    "total": "142"
+    "prelude": 81,
+    "meditation": 61,
+    "total": 142
   },
   {
     "date": "4/21/23",
-    "prelude": "105",
-    "meditation": "77",
-    "total": "182"
+    "prelude": 105,
+    "meditation": 77,
+    "total": 182
   },
   {
     "date": "5/1/23",
-    "prelude": "70",
-    "meditation": "94",
-    "total": "164"
+    "prelude": 70,
+    "meditation": 94,
+    "total": 164
   },
   {
     "date": "5/3/23",
-    "prelude": "128",
-    "meditation": "83",
-    "total": "211"
+    "prelude": 128,
+    "meditation": 83,
+    "total": 211
   },
   {
     "date": "5/5/23",
-    "prelude": "91",
-    "meditation": "116",
-    "total": "207"
+    "prelude": 91,
+    "meditation": 116,
+    "total": 207
   },
   {
     "date": "5/8/23",
-    "prelude": "194",
-    "meditation": "94",
-    "total": "288"
+    "prelude": 194,
+    "meditation": 94,
+    "total": 288
   },
   {
     "date": "5/10/23",
-    "prelude": "190",
-    "meditation": "70",
-    "total": "261"
+    "prelude": 190,
+    "meditation": 70,
+    "total": 261
   },
   {
     "date": "5/15/23",
-    "prelude": "196",
-    "meditation": "106",
-    "total": "302"
+    "prelude": 196,
+    "meditation": 106,
+    "total": 302
   },
   {
     "date": "5/17/23",
-    "prelude": "63",
-    "meditation": "90",
-    "total": "153"
+    "prelude": 63,
+    "meditation": 90,
+    "total": 153
   },
   {
     "date": "5/30/23",
-    "prelude": "44",
-    "meditation": "79",
-    "total": "123"
+    "prelude": 44,
+    "meditation": 79,
+    "total": 123
   },
   {
     "date": "6/15/23",
-    "prelude": "70",
-    "meditation": "75",
-    "total": "145"
+    "prelude": 70,
+    "meditation": 75,
+    "total": 145
   },
   {
     "date": "8/25/23",
-    "prelude": "75",
-    "meditation": "51",
-    "total": "126"
+    "prelude": 75,
+    "meditation": 51,
+    "total": 126
   },
   {
     "date": "8/28/23",
-    "prelude": "97",
-    "meditation": "72",
-    "total": "169"
+    "prelude": 97,
+    "meditation": 72,
+    "total": 169
   },
   {
     "date": "8/30/23",
-    "prelude": "98",
-    "meditation": "74",
-    "total": "172"
+    "prelude": 98,
+    "meditation": 74,
+    "total": 172
   },
   {
     "date": "9/1",
-    "prelude": "87",
-    "meditation": "69",
-    "total": "156"
+    "prelude": 87,
+    "meditation": 69,
+    "total": 156
   },
   {
     "date": "9/6/23",
-    "prelude": "87",
-    "meditation": "70",
-    "total": "157"
+    "prelude": 87,
+    "meditation": 70,
+    "total": 157
   },
   {
     "date": "9/8/23",
-    "prelude": "15",
-    "meditation": "30",
-    "total": "45"
+    "prelude": 15,
+    "meditation": 30,
+    "total": 45
   },
   {
     "date": "9/11/23",
-    "prelude": "54",
-    "meditation": "71",
-    "total": "125"
+    "prelude": 54,
+    "meditation": 71,
+    "total": 125
   },
   {
     "date": "9/13/23",
-    "prelude": "81",
-    "meditation": "72",
-    "total": "153"
+    "prelude": 81,
+    "meditation": 72,
+    "total": 153
   },
   {
     "date": "9/15/23",
-    "prelude": "66",
-    "meditation": "96",
-    "total": "162"
+    "prelude": 66,
+    "meditation": 96,
+    "total": 162
   },
   {
     "date": "9/18/23",
-    "prelude": "85",
-    "meditation": "65",
-    "total": "150"
+    "prelude": 85,
+    "meditation": 65,
+    "total": 150
   },
   {
     "date": "10/4/23",
-    "prelude": "84",
-    "meditation": "80",
-    "total": "164"
+    "prelude": 84,
+    "meditation": 80,
+    "total": 164
   },
   {
     "date": "10/6/23",
-    "prelude": "67",
-    "meditation": "43",
-    "total": "110"
+    "prelude": 67,
+    "meditation": 43,
+    "total": 110
   },
   {
     "date": "10/9/23",
-    "prelude": "64",
-    "meditation": "71",
-    "total": "135"
+    "prelude": 64,
+    "meditation": 71,
+    "total": 135
   },
   {
     "date": "10/11/23",
-    "prelude": "64",
-    "meditation": "40",
-    "total": "104"
+    "prelude": 64,
+    "meditation": 40,
+    "total": 104
   },
   {
     "date": "10/16/23",
-    "prelude": "86",
-    "meditation": "64",
-    "total": "150"
+    "prelude": 86,
+    "meditation": 64,
+    "total": 150
   },
   {
     "date": "10/23/23",
-    "prelude": "109",
-    "meditation": "71",
-    "total": "180"
+    "prelude": 109,
+    "meditation": 71,
+    "total": 180
   },
   {
     "date": "10/25/23",
-    "prelude": "65",
-    "meditation": "82",
-    "total": "147"
+    "prelude": 65,
+    "meditation": 82,
+    "total": 147
   },
   {
     "date": "10/26/23",
-    "prelude": "89",
-    "meditation": "60",
-    "total": "149"
+    "prelude": 89,
+    "meditation": 60,
+    "total": 149
   },
   {
     "date": "10/30/23",
-    "prelude": "15",
-    "meditation": "44",
-    "total": "59"
+    "prelude": 15,
+    "meditation": 44,
+    "total": 59
   },
   {
     "date": "11/1/23",
-    "prelude": "185",
-    "meditation": "101",
-    "total": "286"
+    "prelude": 185,
+    "meditation": 101,
+    "total": 286
   },
   {
     "date": "11/6/23",
-    "prelude": "105",
-    "meditation": "64",
-    "total": "169"
+    "prelude": 105,
+    "meditation": 64,
+    "total": 169
   },
   {
     "date": "11/8/23",
-    "prelude": "64",
-    "meditation": "76",
-    "total": "140"
+    "prelude": 64,
+    "meditation": 76,
+    "total": 140
   },
   {
     "date": "11/10/23",
-    "prelude": "81",
-    "meditation": "84",
-    "total": "165"
+    "prelude": 81,
+    "meditation": 84,
+    "total": 165
   },
   {
     "date": "11/13/23",
-    "prelude": "68",
-    "meditation": "82",
-    "total": "150"
+    "prelude": 68,
+    "meditation": 82,
+    "total": 150
   },
   {
     "date": "11/15/23",
-    "prelude": "234",
-    "meditation": "120",
-    "total": "354"
+    "prelude": 234,
+    "meditation": 120,
+    "total": 354
   },
   {
     "date": "11/17/23",
-    "prelude": "54",
-    "meditation": "435",
-    "total": "489"
+    "prelude": 54,
+    "meditation": 435,
+    "total": 489
+  },
+  {
+    "date": "11/27/23",
+    "prelude": 42,
+    "meditation": 53,
+    "total": 95
+  },
+  {
+    "date": "11/29/23",
+    "prelude": 43,
+    "meditation": 65,
+    "total": 108
+  },
+  {
+    "date": "12/4/23",
+    "prelude": 68,
+    "meditation": 101,
+    "total": 169
+  },
+  {
+    "date": "12/6/23",
+    "prelude": 66,
+    "meditation": 60,
+    "total": 126
+  },
+  {
+    "date": "12/8/23",
+    "prelude": 48,
+    "meditation": 64,
+    "total": 112
+  },
+  {
+    "date": "12/11/23",
+    "prelude": 48,
+    "meditation": 44,
+    "total": 92
+  },
+  {
+    "date": "12/15/23",
+    "prelude": 49,
+    "meditation": 60,
+    "total": 109
+  },
+  {
+    "date": "1/4/24",
+    "prelude": 60,
+    "meditation": 67,
+    "total": 127
+  },
+  {
+    "date": "1/16/24",
+    "prelude": 81,
+    "meditation": 72,
+    "total": 153
+  },
+  {
+    "date": "1/23/24",
+    "prelude": 69,
+    "meditation": 60,
+    "total": 129
+  },
+  {
+    "date": "2/1/24",
+    "prelude": 102,
+    "meditation": 84,
+    "total": 186
+  },
+  {
+    "date": "2/5/24",
+    "prelude": 60,
+    "meditation": 118,
+    "total": 178
+  },
+  {
+    "date": "2/7/24",
+    "prelude": 113,
+    "meditation": 90,
+    "total": 203
+  },
+  {
+    "date": "2/9/24",
+    "prelude": 38,
+    "meditation": 27,
+    "total": 65
+  },
+  {
+    "date": "2/12/24",
+    "prelude": 60,
+    "meditation": 129,
+    "total": 189
+  },
+  {
+    "date": "2/14/24",
+    "prelude": 43,
+    "meditation": 41,
+    "total": 84
+  },
+  {
+    "date": "2/16/24",
+    "prelude": 93,
+    "meditation": 134,
+    "total": 227
+  },
+  {
+    "date": "2/26/24",
+    "prelude": 27,
+    "meditation": 27,
+    "total": 54
+  },
+  {
+    "date": "2/28/24",
+    "prelude": 114,
+    "meditation": 127,
+    "total": 241
+  },
+  {
+    "date": "3/1/24",
+    "prelude": 35,
+    "meditation": 40,
+    "total": 75
+  },
+  {
+    "date": "3/4/24",
+    "prelude": 45,
+    "meditation": 100,
+    "total": 145
+  },
+  {
+    "date": "3/6/24",
+    "prelude": 223,
+    "meditation": 148,
+    "total": 371
+  },
+  {
+    "date": "3/8/24",
+    "prelude": 37,
+    "meditation": 59,
+    "total": 96
+  },
+  {
+    "date": "3/11/24",
+    "prelude": 65,
+    "meditation": 86,
+    "total": 151
+  },
+  {
+    "date": "3/13/24",
+    "prelude": 92,
+    "meditation": 63,
+    "total": 155
+  },
+  {
+    "date": "3/18/24",
+    "prelude": 49,
+    "meditation": 66,
+    "total": 115
+  },
+  {
+    "date": "3/19/24",
+    "prelude": 77,
+    "meditation": 90,
+    "total": 167
+  },
+  {
+    "date": "3/20/24",
+    "prelude": 94,
+    "meditation": 105,
+    "total": 199
+  },
+  {
+    "date": "3/21/24",
+    "prelude": 86,
+    "meditation": 81,
+    "total": 167
+  },
+  {
+    "date": "4/1/24",
+    "prelude": 60,
+    "meditation": 58,
+    "total": 118
+  },
+  {
+    "date": "4/3/24",
+    "prelude": 44,
+    "meditation": 79,
+    "total": 123
+  },
+  {
+    "date": "4/15/24",
+    "prelude": 61,
+    "meditation": 54,
+    "total": 115
+  },
+  {
+    "date": "4/17/24",
+    "prelude": 65,
+    "meditation": 58,
+    "total": 123
+  },
+  {
+    "date": "4/19/24",
+    "prelude": 105,
+    "meditation": 30,
+    "total": 135
+  },
+  {
+    "date": "4/22/24",
+    "prelude": 129,
+    "meditation": 47,
+    "total": 176
+  },
+  {
+    "date": "4/24/24",
+    "prelude": 64,
+    "meditation": 164,
+    "total": 228
+  },
+  {
+    "date": "4/26/24",
+    "prelude": 56,
+    "meditation": 62,
+    "total": 118
+  },
+  {
+    "date": "4/29/24",
+    "prelude": 84,
+    "meditation": 103,
+    "total": 187
+  },
+  {
+    "date": "5/1/24",
+    "prelude": 41,
+    "meditation": 72,
+    "total": 113
+  },
+  {
+    "date": "5/2/24",
+    "prelude": 52,
+    "meditation": 211,
+    "total": 263
+  },
+  {
+    "date": "5/3/24",
+    "prelude": 54,
+    "meditation": 69,
+    "total": 123
+  },
+  {
+    "date": "5/6/24",
+    "prelude": 53,
+    "meditation": 79,
+    "total": 132
+  },
+  {
+    "date": "5/8/24",
+    "prelude": 45,
+    "meditation": 70,
+    "total": 115
+  },
+  {
+    "date": "5/10/24",
+    "prelude": 84,
+    "meditation": 70,
+    "total": 154
+  },
+  {
+    "date": "5/15/24",
+    "prelude": 59,
+    "meditation": 74,
+    "total": 133
+  },
+  {
+    "date": "5/17/24",
+    "prelude": 50,
+    "meditation": 74,
+    "total": 124
   }
 ]

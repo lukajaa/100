@@ -9,6 +9,9 @@
       Prelude is measured from the beginning of the mindfulness explanation to
       the first ring of the bell.
     </PageNote>
+    <PageNote :index="2">
+      You may need to zoom out (ctrl/cmd and -) to see every date.
+    </PageNote>
     <PageSource> myself </PageSource>
   </PageContainer>
 </template>

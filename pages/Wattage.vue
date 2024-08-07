@@ -16,7 +16,11 @@
         {{ appliance }}
       </p>
     </div>
-    <PageSource> myself </PageSource>
+    <PageSource>
+      <a href="https://www.daftlogic.com/information-appliance-power-consumption.htm" target="_blank" rel="noopener noreferrer" class="link">
+        Daft Logic
+      </a>
+    </PageSource>
   </PageContainer>
 </template>
 

@@ -24,11 +24,11 @@
       </div>
     </div>
     <PageSource>
-      <a href="https://www.census.gov/" target="_blank" class="link">
+      <a href="https://www.census.gov/" target="_blank" rel="noopener noreferrer" class="link">
         US Census
       </a>
       and
-      <a href="http://kostat.go.kr/anse/" target="_blank" class="link">
+      <a href="http://kostat.go.kr/anse/" target="_blank" rel="noopener noreferrer" class="link">
         Statistics Korea
       </a>
     </PageSource>
